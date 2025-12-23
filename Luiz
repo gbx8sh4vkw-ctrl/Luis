@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Sensibilidade Free Fire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #111, #222);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: #1e1e1e;
+            padding: 25px;
+            border-radius: 12px;
+            width: 320px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(255, 165, 0, 0.3);
+        }
+
+        h1 {
+            color: orange;
+            margin-bottom: 20px;
+        }
+
+        select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: none;
+            font-size: 16px;
+        }
+
+        button {
+            background: orange;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ffb347;
+        }
+
+        .result {
+            margin-top: 15px;
+            text-align: left;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🎯 Sense Free Fire</h1>
+
+    <select id="estilo">
+        <option value="rapido">Rush / Capa Rápido</option>
+        <option value="balanceado">Balanceado</option>
+        <option value="preciso">Preciso / Longa Distância</option>
+    </select>
+
+    <button onclick="gerarSense()">Gerar Sen
